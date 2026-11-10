@@ -19,7 +19,7 @@ Project ini dibuat sebagai latihan menggabungkan **struct**, **slice**, dan **in
 Prasyarat: [Go](https://go.dev/dl/) 1.16 atau lebih baru. Cek dengan `go version`.
 
 ```bash
-git clone https://github.com/setyonurfy/todo-cli.git
+git clone https://github.com/USERNAME/todo-cli.git
 cd todo-cli
 go run .
 ```
@@ -30,6 +30,28 @@ Untuk membuat program yang bisa dijalankan langsung:
 go build -o todo .
 ./todo
 ```
+
+## Unduh program jadi (tanpa install Go)
+
+Tidak punya Go? Unduh program siap pakai dari halaman **[Releases](https://github.com/USERNAME/todo-cli/releases)**, lalu pilih file sesuai sistem operasi:
+
+| Sistem operasi | File |
+|---|---|
+| Windows | `todo-windows.exe` |
+| macOS (Intel) | `todo-mac-intel` |
+| macOS (Apple Silicon: M1/M2/M3) | `todo-mac-m1` |
+| Linux | `todo-linux` |
+
+Untuk macOS dan Linux, beri izin eksekusi lalu jalankan dari terminal:
+
+```bash
+chmod +x todo-mac-m1
+./todo-mac-m1
+```
+
+Untuk Windows, buka Command Prompt atau PowerShell di folder file tersebut, lalu jalankan `todo-windows.exe`.
+
+> **Catatan:** program ini belum ditandatangani secara digital, jadi Windows SmartScreen atau macOS Gatekeeper dapat menampilkan peringatan keamanan. Itu wajar untuk program hasil build sendiri. Di Windows, klik *More info* lalu *Run anyway*. Di macOS, izinkan lewat pengaturan Privacy & Security. Jika ragu, jalankan dari kode sumber dengan `go run .` seperti di atas.
 
 ## Cara pakai
 
