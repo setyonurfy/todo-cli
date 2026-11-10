@@ -33,7 +33,7 @@ go build -o todo .
 
 ## Unduh program jadi (tanpa install Go)
 
-Tidak punya Go? Unduh program siap pakai dari halaman **[Releases](https://github.com/USERNAME/todo-cli/releases)**, lalu pilih file sesuai sistem operasi:
+Tidak punya Go? Unduh program siap pakai dari halaman **[Releases](https://github.com/setyonurfy/todo-cli/releases)**, lalu pilih file sesuai sistem operasi:
 
 | Sistem operasi | File |
 |---|---|
