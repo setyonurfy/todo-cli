@@ -132,13 +132,3 @@ Data disimpan di `tasks.json` pada folder tempat program dijalankan:
 ```
 
 ID tugas baru dihitung dari ID terbesar yang ada ditambah satu. Jika file belum ada atau masih kosong, program memulai dengan daftar kosong.
-
-## Rencana pengembangan
-
-- [ ] Unit test untuk `Add`, `Update`, `Complete`, dan `Delete`
-- [ ] Memecah kode ke beberapa file
-- [ ] Penyimpanan ke database lewat implementasi baru dari `TaskManager`
-
-## Penulis
-
-Dibuat oleh NAMA ANDA sebagai bagian dari proses belajar Go.
