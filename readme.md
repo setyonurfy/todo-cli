@@ -19,7 +19,7 @@ Project ini dibuat sebagai latihan menggabungkan **struct**, **slice**, dan **in
 Prasyarat: [Go](https://go.dev/dl/) 1.16 atau lebih baru. Cek dengan `go version`.
 
 ```bash
-git clone https://github.com/USERNAME/todo-cli.git
+git clone https://github.com/setyonurfy/todo-cli.git
 cd todo-cli
 go run .
 ```
